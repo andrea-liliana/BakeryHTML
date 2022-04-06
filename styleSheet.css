@@ -1,0 +1,70 @@
+.backgroundBakery{
+    background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23ce80bb' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    height: 100%;
+}
+
+.cakesContainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%
+}
+
+.centered {
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    width: 100vw; 
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 40vh 30vh 30vh;
+    grid-gap: 10px;
+    grid-template-areas: 
+      "info    photo photo photo   photo" 
+      "comment photo photo photo   photo" 
+      "comment tag     tag   album rotate"
+}
+  
+.photo{
+    grid-area: photo;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+}
+
+  
+.info {
+    grid-area: info;
+}
+  
+.tag {
+    grid-area: tag;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+}
+  
+.comment {
+    grid-area: comment;
+    background: rgb(238, 137, 229);
+}
+  
+.album {
+    grid-area: album;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+}
+  
+.rotate {
+    grid-area: rotate;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+}
