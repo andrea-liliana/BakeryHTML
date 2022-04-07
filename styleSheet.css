@@ -62,27 +62,15 @@
     grid-template-rows: 30vh 20vh 25vh 25vh;
     grid-gap: 10px;
     grid-template-areas: 
-    "info    photo photo photo   photo" 
-    "info2    photo photo photo   photo" 
-    "comment photo photo photo   photo" 
-    "comment tag     tag   album logo"
+    "cake4 cake1 cake1 cake1 cake1" 
+    "cake5 cake1 cake1 cake1 cake1" 
+    "cake2 cake1 cake1 cake1 cake1" 
+    "cake2 cake3 cake3 cake6 logo"
 }
 
   
-.photo{
-    grid-area: photo;
-    height: 100%;
-    width: 100%;
-    background-size: cover; 
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
-  
-.info {
-    grid-area: info;
+.cake1{
+    grid-area: cake1;
     height: 100%;
     width: 100%;
     background-size: cover; 
@@ -92,8 +80,8 @@
     justify-content: flex-end;
 }
 
-.info2 {
-    grid-area: info2;
+.cake2 {
+    grid-area: cake2;
     height: 100%;
     width: 100%;
     background-size: cover; 
@@ -103,19 +91,8 @@
     justify-content: flex-end;
 }
   
-.tag {
-    grid-area: tag;
-    height: 100%;
-    width: 100%;
-    background-size: cover; 
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-  
-.comment {
-    grid-area: comment;
+.cake3 {
+    grid-area: cake3;
     height: 100%;
     width: 100%;
     background-size: cover; 
@@ -125,9 +102,30 @@
     justify-content: flex-end;
 }
 
+.cake4 {
+    grid-area: cake4;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.cake5 {
+    grid-area: cake5;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
   
-.album {
-    grid-area: album;
+.cake6 {
+    grid-area: cake6;
     height: 100%;
     width: 100%;
     background-size: cover; 
